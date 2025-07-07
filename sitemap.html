@@ -10,7 +10,7 @@
 <meta name="robots" content="index, follow">
 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<link rel="shortcut icon"  href="img/"/>
+<link rel="shortcut icon" href="data:image/png;base64,"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,500,600,700,800,900&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
@@ -18,19 +18,34 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css">
-a:hover, a:focus, a.active{
-color:#000000!important;
-}
-.w47b64acb2969deb39ee9138dbe64fea2 li{
-list-style: none;
-padding-left: 0;
-margin-top: 1.5rem;
+.dropdown .dropdown-menu{
+background: #ffffff;
+position: absolute;
+display: none;
+min-width: 49.8px;
+padding-top: 9.9px;
+box-shadow: 0 0 15.3px 0 rgb(0 0 0 / 10%);
+padding-bottom: 10.4px;
 text-align: left;
-color: #000000;
 }
-.y5a9db7d83fa5832cdb7d9b6adc527fdf i{
-font-size: 19.7px;
-padding: 10px;
+p, .x3a16e37ac474292da2568e2156d6c62d{
+font-size:20px;
+line-height: 1.68;
+font-weight: 400;
+}
+.dropdown-menu{
+max-width:800px;
+overflow-x: auto;
+}
+.navbar{
+background: #ffffff;
+transition: none;
+min-height: 77px;
+padding-top: 10.5px;
+padding-bottom: 10.4px;
+position: relative;
+z-index: 1000;
+box-shadow: 0 0 15.1px 0 rgb(0 0 0 / 10%);
 }
 .dropdown-item{
 display: block;
@@ -43,111 +58,9 @@ white-space: nowrap;
 background-color: transparent;
 border: 0;
 }
-.dropdown-menu{
-max-width:800px;
-overflow-x: auto;
-}
-.w47b64acb2969deb39ee9138dbe64fea2 *{
-color:#000000;
-font-size:20px!important;
-}
-.hamburger span:nth-child(4){
-top: 16px;
-transition: all 0.2s;
-}
-.fa-star,.fa-star-half-alt{
-font-size: 15.3px;
-}
-html{
-scroll-behavior: smooth;
-}
-.wff0c36b59a53e7d21b33fc20e508f8f9,.wff0c36b59a53e7d21b33fc20e508f8f9:active{
-background-color:#ffffff!important;
-border-color:#000000!important;
-color:#000000!important;
-padding: 10.2px 20.4px!important;
-border-radius: 0;
-font-weight: 700!important;
-letter-spacing: 0px;
-transition-property: all;
-transition-duration: .2s;
-min-width: 199.6px !important;
-}
-.navbar-toggler{
--webkit-align-self: flex-start;
--ms-flex-item-align: start;
-align-self: flex-start;
-padding: 0px 0px;
-font-size: 19.5px;
-line-height: 1;
-background: transparent;
-border: 1px solid transparent!important;
-border-radius: 0.25rem;
-}
-.navbar{
-background: #ffffff;
-transition: none;
-min-height: 76.9px;
-padding-top: 10.5px;
-padding-bottom: 9.6px;
-position: relative;
-z-index: 1000;
-box-shadow: 0 0 14.7px 0 rgb(0 0 0 / 10%);
-}
-.w47b64acb2969deb39ee9138dbe64fea2 ul{
-padding-left: 0px;
-}
-.dropdown .dropdown-menu .dropdown-item{
-width: auto;
-padding: 0.2em 1.3em 0.2em 1.3em !important;
-}
-.nav-link:hover, .dropdown-item:hover{
- 
-opacity: .75;
-}
-.v9f759aaa42b9394f4a469190ebc049b6{
-font-weight: 700 !important;
-}
-.w47b64acb2969deb39ee9138dbe64fea2 .zdc7627e848247fd5a27164c2ddc95005{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 1.5rem;
-margin-top: 4rem;
-border-top: 2px solid #000000;
-}
-.hamburger span:nth-child(1){
-top: 0;
-transition: all 0.2s;
-}
-.wff0c36b59a53e7d21b33fc20e508f8f9:hover, .wff0c36b59a53e7d21b33fc20e508f8f9:focus, .wff0c36b59a53e7d21b33fc20e508f8f9.focus, .wff0c36b59a53e7d21b33fc20e508f8f9.active{
-color: #ffffff !important;
-background-color: #000000 !important;
-border-color: #000000 !important;
-}
-.nav-item .nav-link{
-display: -webkit-flex;
-align-items: center;
-padding: 12.5px 0!important;
-margin: 0px 20px!important;
--webkit-align-items: center;
-}
-a{
-color: black;
-text-decoration: none;
-}
-a:hover{
-color:#000000!important;
-background: #ffffff!important;
-opacity: .75;
-text-decoration: none;
-}
-*{
-font-family: 'DM Sans', sans-serif;
-}
 button.navbar-toggler{
-width: 31.2px;
-height: 18.5px;
+width: 31.4px;
+height: 17.9px;
 cursor: pointer;
 transition: all 0.2s;
 top: 2rem;
@@ -155,46 +68,28 @@ display: block;
 right: 1.5rem;
 position: absolute;
 }
-.hamburger span:nth-child(3){
-top: 8px;
-transition: all 0.15s;
+.e32c644fb112a980df8b07a739b3c024d i{
+font-size: 20px;
+padding: 10px;
 }
-.navbar-nav li:hover>.dropdown-menu{
-display: block;
+.b7f276967e82187d19a14802c0786bb15:hover, .b7f276967e82187d19a14802c0786bb15:focus, .b7f276967e82187d19a14802c0786bb15.focus, .b7f276967e82187d19a14802c0786bb15.active{
+color: #ffffff !important;
+background-color: #000000 !important;
+border-color: #000000 !important;
 }
-.dropdown .dropdown-menu{
-background: #ffffff;
-position: absolute;
-display: none;
-min-width: 49.7px;
-padding-top: 9.5px;
-box-shadow: 0 0 15.3px 0 rgb(0 0 0 / 10%);
-padding-bottom: 9.8px;
-text-align: left;
+.f5a6c71024b5cab23ba059628ebbd77a4 *{
+color:#0c0c0c;
+font-size:20px!important;
 }
-.w47b64acb2969deb39ee9138dbe64fea2 a{
-color:#000000;
+*{
+font-family: 'DM Sans', sans-serif;
+}
+.eb4414c0ba4efa3ae0eed4e42d1f86448{
+font-weight: 700 !important;
+}
+.f5a6c71024b5cab23ba059628ebbd77a4 a{
+color:#0c0c0c;
 text-decoration: underline;
-}
-p, .t8f761050a4d88d6372ea27cd15fa841e{
-font-size:20px;
-line-height: 1.68;
-font-weight: 400;
-}
-.nav-link{
-color: #000000!important;
-}
-.w47b64acb2969deb39ee9138dbe64fea2{
-padding-top: 4rem;
-padding-bottom: 6rem;
-background-color: #c6e3e9;
-bottom: 0;
-z-index: 0;
-width: 100%;
-}
-.hamburger span:nth-child(2){
-top: 8px;
-transition: all 0.15s;
 }
 .hamburger span{
 position: absolute;
@@ -204,21 +99,123 @@ height: 2px;
 border-right: 5px;
 background-color: #000000;
 }
+.nav-item .nav-link{
+display: -webkit-flex;
+align-items: center;
+padding: 12.3px 0!important;
+margin: 0px 20.5px!important;
+-webkit-align-items: center;
+}
+a:hover, a:focus, a.active{
+color:#000000!important;
+}
+.navbar-toggler{
+-webkit-align-self: flex-start;
+-ms-flex-item-align: start;
+align-self: flex-start;
+padding: 0px 0px;
+font-size: 19.6px;
+line-height: 1;
+background: transparent;
+border: 1px solid transparent!important;
+border-radius: 0.25rem;
+}
+.f5a6c71024b5cab23ba059628ebbd77a4 li{
+list-style: none;
+padding-left: 0;
+margin-top: 1.5rem;
+text-align: left;
+color: #000000;
+}
+.f5a6c71024b5cab23ba059628ebbd77a4{
+padding-top: 4rem;
+padding-bottom: 6rem;
+background-color: #cae7ed;
+bottom: 0;
+z-index: 0;
+width: 100%;
+}
+.dropdown .dropdown-menu .dropdown-item{
+width: auto;
+padding: 0.2em 1.3em 0.2em 1.3em !important;
+}
+a{
+color: black;
+text-decoration: none;
+}
+.hamburger span:nth-child(1){
+top: 0;
+transition: all 0.2s;
+}
+.nav-link:hover, .dropdown-item:hover{
+ 
+opacity: .75;
+}
+a:hover{
+color:#000000!important;
+background: #ffffff!important;
+opacity: .75;
+text-decoration: none;
+}
+.hamburger span:nth-child(4){
+top: 16px;
+transition: all 0.2s;
+}
+.hamburger span:nth-child(3){
+top: 8px;
+transition: all 0.15s;
+}
+.fa-star,.fa-star-half-alt{
+font-size: 15.1px;
+}
+.navbar-nav li:hover>.dropdown-menu{
+display: block;
+}
+.f5a6c71024b5cab23ba059628ebbd77a4 ul{
+padding-left: 0px;
+}
+.hamburger span:nth-child(2){
+top: 8px;
+transition: all 0.15s;
+}
+html{
+scroll-behavior: smooth;
+}
+.f5a6c71024b5cab23ba059628ebbd77a4 .c48629f689bd4135b48c5e0e87372c575{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 1.5rem;
+margin-top: 4rem;
+border-top: 2px solid #0c0c0c;
+}
+.b7f276967e82187d19a14802c0786bb15,.b7f276967e82187d19a14802c0786bb15:active{
+background-color:#ffffff!important;
+border-color:#000000!important;
+color:#000000!important;
+padding: 9.9px 20.1px!important;
+border-radius: 0;
+font-weight: 700!important;
+letter-spacing: 0px;
+transition-property: all;
+transition-duration: .2s;
+min-width: 200px !important;
+}
+.nav-link{
+color: #000000!important;
+}
 </style>
 </head>
 <body>
-<nav class="navbar-expand-lg px-md-5 navbar">
-<a class="navbar-brand" href="index.html"  > 
+<nav class="navbar-expand-lg navbar px-md-5">
+<a class="navbar-brand" href="https://magical-narwhal-542ffc.netlify.app/index.html"  > 
 </a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<div class="hamburger"><span></span><span></span><span></span><span></span></div>
-</button>
 <div class="navbar-collapse collapse" id="navbarSupportedContent">
 <ul class="ml-auto navbar-nav">
-<li class="t8f761050a4d88d6372ea27cd15fa841e  v9f759aaa42b9394f4a469190ebc049b6 dropdown nav-item"><a class="dropdown-toggle nav-link" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">seo Aalborg</a>
+<li class="nav-item x3a16e37ac474292da2568e2156d6c62d  dropdown eb4414c0ba4efa3ae0eed4e42d1f86448"><a class="dropdown-toggle nav-link" href="https://magical-narwhal-542ffc.netlify.app/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">seo Aalborg</a>
 <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdown">
-<a class="t8f761050a4d88d6372ea27cd15fa841e dropdown-item v9f759aaa42b9394f4a469190ebc049b6" href="index.html"  >seo Aalborg</a>
-<li class="nav-item"><a class="nav-link t8f761050a4d88d6372ea27cd15fa841e" href="about-us.html"><b>About Us</b></a></li>
+<a class="dropdown-item x3a16e37ac474292da2568e2156d6c62d eb4414c0ba4efa3ae0eed4e42d1f86448" href="https://magical-narwhal-542ffc.netlify.app/index.html"  >seo Aalborg</a>
+<li class="nav-item"><a class="x3a16e37ac474292da2568e2156d6c62d nav-link" href="https://magical-narwhal-542ffc.netlify.app/about-us.html"><b>About Us</b></a></li>
 </ul>
 </div>
 </nav>
@@ -230,22 +227,22 @@ background-color: #000000;
 <div>
 <ul>
 <li> No of Pages :   <span>6  pages</span></li>
-<li>1) <a href="index.html " >index.html</a></li>
-<li>2) <a href="privacy-policy.html " >privacy-policy.html</a></li>
-<li>3) <a href="feed.xml " >feed.xml</a></li>
-<li>4) <a href="sitemap.xml " >sitemap.xml</a></li>
-<li>5) <a href="sitemap.html " >sitemap.html</a></li>
-<li>6) <a href="about-us.html " >about-us.html</a></li>
+<li>1) <a href="https://magical-narwhal-542ffc.netlify.app/index.html " >https://magical-narwhal-542ffc.netlify.app/index.html</a></li>
+<li>2) <a href="https://magical-narwhal-542ffc.netlify.app/privacy-policy.html " >https://magical-narwhal-542ffc.netlify.app/privacy-policy.html</a></li>
+<li>3) <a href="https://magical-narwhal-542ffc.netlify.app/sitemap.html " >https://magical-narwhal-542ffc.netlify.app/sitemap.html</a></li>
+<li>4) <a href="https://magical-narwhal-542ffc.netlify.app/sitemap.xml " >https://magical-narwhal-542ffc.netlify.app/sitemap.xml</a></li>
+<li>5) <a href="https://magical-narwhal-542ffc.netlify.app/about-us.html " >https://magical-narwhal-542ffc.netlify.app/about-us.html</a></li>
+<li>6) <a href="https://magical-narwhal-542ffc.netlify.app/feed.xml " >https://magical-narwhal-542ffc.netlify.app/feed.xml</a></li>
 </ul>
 </div>
 </section>
-  <footer class="w47b64acb2969deb39ee9138dbe64fea2">
+  <footer class="f5a6c71024b5cab23ba059628ebbd77a4">
 <div class="container"><div class="row">
 <div class="col-12">
-<div class="zdc7627e848247fd5a27164c2ddc95005">
-<div><a href="sitemap.html" rel="nofollow">Sitemap | </a>
-<a class="t8f761050a4d88d6372ea27cd15fa841e" href="privacy-policy.html" rel="nofollow">Privacy Policy</a> 
-<a href="about-us.html" rel="nofollow">
+<div class="c48629f689bd4135b48c5e0e87372c575">
+<div><a href="https://magical-narwhal-542ffc.netlify.app/sitemap.html" rel="nofollow">Sitemap | </a>
+<a class="x3a16e37ac474292da2568e2156d6c62d" href="https://magical-narwhal-542ffc.netlify.app/privacy-policy.html" rel="nofollow">Privacy Policy</a> 
+<a href="https://magical-narwhal-542ffc.netlify.app/about-us.html" rel="nofollow">
 <b>About Us</b></a>
 </div></div>
 </div>
