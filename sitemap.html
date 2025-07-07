@@ -18,30 +18,76 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css">
-.fa-star,.fa-star-half-alt{
-font-size: 15.2px;
+.nav-link:hover, .dropdown-item:hover{
+ 
+opacity: .75;
 }
-.navbar-toggler{
--webkit-align-self: flex-start;
--ms-flex-item-align: start;
-align-self: flex-start;
-padding: 0px 0px;
-font-size: 20.3px;
-line-height: 1;
-background: transparent;
-border: 1px solid transparent!important;
-border-radius: 0.25rem;
+.dropdown-menu{
+max-width:800px;
+overflow-x: auto;
+}
+.a50ef9662b0e1d8894931b5cb94207e8d{
+font-weight: 700 !important;
+}
+.u7dfaece609125f80dfd14438361445c6 *{
+color:#040404;
+font-size:20px!important;
 }
 .hamburger span:nth-child(2){
 top: 8px;
 transition: all 0.15s;
 }
-.nav-link:hover, .dropdown-item:hover{
- 
-opacity: .75;
+a{
+color: black;
+text-decoration: none;
 }
-.x1b1bbd712c8b036fbe2ac44f63d025bd{
-font-weight: 700 !important;
+.hamburger span:nth-child(3){
+top: 8px;
+transition: all 0.15s;
+}
+.u7dfaece609125f80dfd14438361445c6 a{
+color:#040404;
+text-decoration: underline;
+}
+.dropdown .dropdown-menu .dropdown-item{
+width: auto;
+padding: 0.2em 1.3em 0.2em 1.3em !important;
+}
+.b78a3ec7ec26c74a79e61a92e2284f244 i{
+font-size: 19.8px;
+padding: 10px;
+}
+.u7dfaece609125f80dfd14438361445c6 li{
+list-style: none;
+padding-left: 0;
+margin-top: 1.5rem;
+text-align: left;
+color: #000000;
+}
+.u7dfaece609125f80dfd14438361445c6 .a5d4e82d7d3ad08acd7655f09c7169ff5{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 1.5rem;
+margin-top: 4rem;
+border-top: 2px solid #040404;
+}
+.navbar{
+background: #ffffff;
+transition: none;
+min-height: 76.9px;
+padding-top: 9.7px;
+padding-bottom: 9.9px;
+position: relative;
+z-index: 1000;
+box-shadow: 0 0 15.2px 0 rgb(0 0 0 / 10%);
+}
+html{
+scroll-behavior: smooth;
+}
+.hamburger span:nth-child(4){
+top: 16px;
+transition: all 0.2s;
 }
 .dropdown-item{
 display: block;
@@ -54,17 +100,67 @@ white-space: nowrap;
 background-color: transparent;
 border: 0;
 }
-.xbe9414e57a1225877568aafcfb560ab2 i{
+.tcf5097ed2a8bfc79eb22cb9affa8ccfd:hover, .tcf5097ed2a8bfc79eb22cb9affa8ccfd:focus, .tcf5097ed2a8bfc79eb22cb9affa8ccfd.focus, .tcf5097ed2a8bfc79eb22cb9affa8ccfd.active{
+color: #ffffff !important;
+background-color: #000000 !important;
+border-color: #000000 !important;
+}
+a:hover, a:focus, a.active{
+color:#000000!important;
+}
+*{
+font-family: 'DM Sans', sans-serif;
+}
+.navbar-toggler{
+-webkit-align-self: flex-start;
+-ms-flex-item-align: start;
+align-self: flex-start;
+padding: 0px 0px;
 font-size: 19.9px;
-padding: 10px;
+line-height: 1;
+background: transparent;
+border: 1px solid transparent!important;
+border-radius: 0.25rem;
 }
-.hamburger span:nth-child(3){
-top: 8px;
-transition: all 0.15s;
+.u7dfaece609125f80dfd14438361445c6 ul{
+padding-left: 0px;
 }
-.hamburger span:nth-child(4){
-top: 16px;
-transition: all 0.2s;
+.dropdown .dropdown-menu{
+background: #ffffff;
+position: absolute;
+display: none;
+min-width: 49.8px;
+padding-top: 10.2px;
+box-shadow: 0 0 15.3px 0 rgb(0 0 0 / 10%);
+padding-bottom: 9.8px;
+text-align: left;
+}
+.fa-star,.fa-star-half-alt{
+font-size: 15.2px;
+}
+.nav-item .nav-link{
+display: -webkit-flex;
+align-items: center;
+padding: 12.4px 0!important;
+margin: 0px 19.9px!important;
+-webkit-align-items: center;
+}
+.u7dfaece609125f80dfd14438361445c6{
+padding-top: 4rem;
+padding-bottom: 6rem;
+background-color: #ceebf1;
+bottom: 0;
+z-index: 0;
+width: 100%;
+}
+a:hover{
+color:#000000!important;
+background: #ffffff!important;
+opacity: .75;
+text-decoration: none;
+}
+.navbar-nav li:hover>.dropdown-menu{
+display: block;
 }
 .hamburger span{
 position: absolute;
@@ -74,126 +170,33 @@ height: 2px;
 border-right: 5px;
 background-color: #000000;
 }
-.z785d2ee033277ed417294cbaf9ade736:hover, .z785d2ee033277ed417294cbaf9ade736:focus, .z785d2ee033277ed417294cbaf9ade736.focus, .z785d2ee033277ed417294cbaf9ade736.active{
-color: #ffffff !important;
-background-color: #000000 !important;
-border-color: #000000 !important;
-}
-.dropdown-menu{
-max-width:800px;
-overflow-x: auto;
-}
-.dropdown .dropdown-menu .dropdown-item{
-width: auto;
-padding: 0.2em 1.3em 0.2em 1.3em !important;
-}
-a:hover, a:focus, a.active{
-color:#000000!important;
-}
 .hamburger span:nth-child(1){
 top: 0;
 transition: all 0.2s;
 }
-.z785d2ee033277ed417294cbaf9ade736,.z785d2ee033277ed417294cbaf9ade736:active{
+.nav-link{
+color: #000000!important;
+}
+.tcf5097ed2a8bfc79eb22cb9affa8ccfd,.tcf5097ed2a8bfc79eb22cb9affa8ccfd:active{
 background-color:#ffffff!important;
 border-color:#000000!important;
 color:#000000!important;
-padding: 9.6px 20.3px!important;
+padding: 9.9px 20px!important;
 border-radius: 0;
 font-weight: 700!important;
 letter-spacing: 0px;
 transition-property: all;
 transition-duration: .2s;
-min-width: 199.5px !important;
+min-width: 199.7px !important;
 }
-.wbf2d4dfd8e0d0f9ea5c688e6f6f63c59 li{
-list-style: none;
-padding-left: 0;
-margin-top: 1.5rem;
-text-align: left;
-color: #000000;
-}
-a:hover{
-color:#000000!important;
-background: #ffffff!important;
-opacity: .75;
-text-decoration: none;
-}
-.wbf2d4dfd8e0d0f9ea5c688e6f6f63c59 ul{
-padding-left: 0px;
-}
-.nav-item .nav-link{
-display: -webkit-flex;
-align-items: center;
-padding: 11.9px 0!important;
-margin: 0px 20px!important;
--webkit-align-items: center;
-}
-.wbf2d4dfd8e0d0f9ea5c688e6f6f63c59 a{
-color:#111111;
-text-decoration: underline;
-}
-.navbar-nav li:hover>.dropdown-menu{
-display: block;
-}
-.wbf2d4dfd8e0d0f9ea5c688e6f6f63c59{
-padding-top: 4rem;
-padding-bottom: 6rem;
-background-color: #c9e6ec;
-bottom: 0;
-z-index: 0;
-width: 100%;
-}
-.wbf2d4dfd8e0d0f9ea5c688e6f6f63c59 *{
-color:#111111;
-font-size:20px!important;
-}
-.wbf2d4dfd8e0d0f9ea5c688e6f6f63c59 .ee24bd970a98dca875e7e61b2a1c9bee2{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 1.5rem;
-margin-top: 4rem;
-border-top: 2px solid #111111;
-}
-.navbar{
-background: #ffffff;
-transition: none;
-min-height: 76.6px;
-padding-top: 10.1px;
-padding-bottom: 10px;
-position: relative;
-z-index: 1000;
-box-shadow: 0 0 15.1px 0 rgb(0 0 0 / 10%);
-}
-p, .y659a4531b1c28645008d0919a9af2a7f{
+p, .fb5d9b73a9018dbe14e1c359e13a444d9{
 font-size:20px;
 line-height: 1.68;
 font-weight: 400;
 }
-.nav-link{
-color: #000000!important;
-}
-html{
-scroll-behavior: smooth;
-}
-.dropdown .dropdown-menu{
-background: #ffffff;
-position: absolute;
-display: none;
-min-width: 50px;
-padding-top: 10px;
-box-shadow: 0 0 15.5px 0 rgb(0 0 0 / 10%);
-padding-bottom: 9.6px;
-text-align: left;
-}
-a{
-color: black;
-text-decoration: none;
-}
 button.navbar-toggler{
-width: 30.7px;
-height: 18.5px;
+width: 31px;
+height: 17.8px;
 cursor: pointer;
 transition: all 0.2s;
 top: 2rem;
@@ -201,32 +204,29 @@ display: block;
 right: 1.5rem;
 position: absolute;
 }
-*{
-font-family: 'DM Sans', sans-serif;
-}
 </style>
 </head>
 <body>
-<nav class="navbar px-md-5 navbar-expand-lg">
+<nav class="px-md-5 navbar navbar-expand-lg">
 <a class="navbar-brand" href="https://magical-narwhal-542ffc.netlify.app/index.html"  > 
 </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <div class="hamburger"><span></span><span></span><span></span><span></span></div>
 </button>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div class="navbar-collapse collapse" id="navbarSupportedContent">
 <ul class="navbar-nav ml-auto">
-<li class="dropdown y659a4531b1c28645008d0919a9af2a7f x1b1bbd712c8b036fbe2ac44f63d025bd  nav-item"><a class="dropdown-toggle nav-link" href="https://magical-narwhal-542ffc.netlify.app/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">seo Aalborg</a>
+<li class="nav-item  a50ef9662b0e1d8894931b5cb94207e8d fb5d9b73a9018dbe14e1c359e13a444d9 dropdown"><a class="nav-link dropdown-toggle" href="https://magical-narwhal-542ffc.netlify.app/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">seo Aalborg</a>
 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-<a class="x1b1bbd712c8b036fbe2ac44f63d025bd y659a4531b1c28645008d0919a9af2a7f dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/index.html"  >seo Aalborg</a>
-<a class="y659a4531b1c28645008d0919a9af2a7f dropdown-item x1b1bbd712c8b036fbe2ac44f63d025bd" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<a class="y659a4531b1c28645008d0919a9af2a7f x1b1bbd712c8b036fbe2ac44f63d025bd dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<a class="y659a4531b1c28645008d0919a9af2a7f x1b1bbd712c8b036fbe2ac44f63d025bd dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<a class="x1b1bbd712c8b036fbe2ac44f63d025bd dropdown-item y659a4531b1c28645008d0919a9af2a7f" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<a class="x1b1bbd712c8b036fbe2ac44f63d025bd dropdown-item y659a4531b1c28645008d0919a9af2a7f" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<a class="dropdown-item y659a4531b1c28645008d0919a9af2a7f x1b1bbd712c8b036fbe2ac44f63d025bd" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<a class="y659a4531b1c28645008d0919a9af2a7f x1b1bbd712c8b036fbe2ac44f63d025bd dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<a class="x1b1bbd712c8b036fbe2ac44f63d025bd y659a4531b1c28645008d0919a9af2a7f dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
-<li class="nav-item"><a class="nav-link y659a4531b1c28645008d0919a9af2a7f" href="https://magical-narwhal-542ffc.netlify.app/about-us.html"><b>About Us</b></a></li>
+<a class="a50ef9662b0e1d8894931b5cb94207e8d fb5d9b73a9018dbe14e1c359e13a444d9 dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/index.html"  >seo Aalborg</a>
+<a class="fb5d9b73a9018dbe14e1c359e13a444d9 a50ef9662b0e1d8894931b5cb94207e8d dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<a class="a50ef9662b0e1d8894931b5cb94207e8d dropdown-item fb5d9b73a9018dbe14e1c359e13a444d9" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<a class="fb5d9b73a9018dbe14e1c359e13a444d9 a50ef9662b0e1d8894931b5cb94207e8d dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<a class="fb5d9b73a9018dbe14e1c359e13a444d9 dropdown-item a50ef9662b0e1d8894931b5cb94207e8d" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<a class="fb5d9b73a9018dbe14e1c359e13a444d9 dropdown-item a50ef9662b0e1d8894931b5cb94207e8d" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<a class="dropdown-item a50ef9662b0e1d8894931b5cb94207e8d fb5d9b73a9018dbe14e1c359e13a444d9" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<a class="a50ef9662b0e1d8894931b5cb94207e8d fb5d9b73a9018dbe14e1c359e13a444d9 dropdown-item" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<a class="dropdown-item a50ef9662b0e1d8894931b5cb94207e8d fb5d9b73a9018dbe14e1c359e13a444d9" href="https://magical-narwhal-542ffc.netlify.app/test.html"  >test</a>
+<li class="nav-item"><a class="fb5d9b73a9018dbe14e1c359e13a444d9 nav-link" href="https://magical-narwhal-542ffc.netlify.app/about-us.html"><b>About Us</b></a></li>
 </ul>
 </div>
 </nav>
@@ -237,7 +237,7 @@ font-family: 'DM Sans', sans-serif;
 </div>
 <div>
 <ul>
-<li> No of Pages :   <span>15  pages</span></li>
+<li> No of Pages :   <span>14  pages</span></li>
 <li>1) <a href="https://magical-narwhal-542ffc.netlify.app/index.html " >https://magical-narwhal-542ffc.netlify.app/index.html</a></li>
 <li>2) <a href="https://magical-narwhal-542ffc.netlify.app/test.html " >https://magical-narwhal-542ffc.netlify.app/test.html</a></li>
 <li>3) <a href="https://magical-narwhal-542ffc.netlify.app/test.html " >https://magical-narwhal-542ffc.netlify.app/test.html</a></li>
@@ -247,21 +247,20 @@ font-family: 'DM Sans', sans-serif;
 <li>7) <a href="https://magical-narwhal-542ffc.netlify.app/test.html " >https://magical-narwhal-542ffc.netlify.app/test.html</a></li>
 <li>8) <a href="https://magical-narwhal-542ffc.netlify.app/test.html " >https://magical-narwhal-542ffc.netlify.app/test.html</a></li>
 <li>9) <a href="https://magical-narwhal-542ffc.netlify.app/test.html " >https://magical-narwhal-542ffc.netlify.app/test.html</a></li>
-<li>10) <a href="https://magical-narwhal-542ffc.netlify.app/news.html " >https://magical-narwhal-542ffc.netlify.app/news.html</a></li>
-<li>11) <a href="https://magical-narwhal-542ffc.netlify.app/privacy-policy.html " >https://magical-narwhal-542ffc.netlify.app/privacy-policy.html</a></li>
-<li>12) <a href="https://magical-narwhal-542ffc.netlify.app/sitemap.html " >https://magical-narwhal-542ffc.netlify.app/sitemap.html</a></li>
-<li>13) <a href="https://magical-narwhal-542ffc.netlify.app/sitemap.xml " >https://magical-narwhal-542ffc.netlify.app/sitemap.xml</a></li>
+<li>10) <a href="https://magical-narwhal-542ffc.netlify.app/privacy-policy.html " >https://magical-narwhal-542ffc.netlify.app/privacy-policy.html</a></li>
+<li>11) <a href="https://magical-narwhal-542ffc.netlify.app/sitemap.html " >https://magical-narwhal-542ffc.netlify.app/sitemap.html</a></li>
+<li>12) <a href="https://magical-narwhal-542ffc.netlify.app/sitemap.xml " >https://magical-narwhal-542ffc.netlify.app/sitemap.xml</a></li>
+<li>13) <a href="https://magical-narwhal-542ffc.netlify.app/feed.xml " >https://magical-narwhal-542ffc.netlify.app/feed.xml</a></li>
 <li>14) <a href="https://magical-narwhal-542ffc.netlify.app/about-us.html " >https://magical-narwhal-542ffc.netlify.app/about-us.html</a></li>
-<li>15) <a href="https://magical-narwhal-542ffc.netlify.app/feed.xml " >https://magical-narwhal-542ffc.netlify.app/feed.xml</a></li>
 </ul>
 </div>
 </section>
-  <footer class="wbf2d4dfd8e0d0f9ea5c688e6f6f63c59">
+  <footer class="u7dfaece609125f80dfd14438361445c6">
 <div class="container"><div class="row">
 <div class="col-12">
-<div class="ee24bd970a98dca875e7e61b2a1c9bee2">
+<div class="a5d4e82d7d3ad08acd7655f09c7169ff5">
 <div><a href="https://magical-narwhal-542ffc.netlify.app/sitemap.html" rel="nofollow">Sitemap | </a>
-<a class="y659a4531b1c28645008d0919a9af2a7f" href="https://magical-narwhal-542ffc.netlify.app/privacy-policy.html" rel="nofollow">Privacy Policy</a> 
+<a class="fb5d9b73a9018dbe14e1c359e13a444d9" href="https://magical-narwhal-542ffc.netlify.app/privacy-policy.html" rel="nofollow">Privacy Policy</a> 
 <a href="https://magical-narwhal-542ffc.netlify.app/about-us.html" rel="nofollow">
 <b>About Us</b></a>
 </div></div>
